@@ -1,0 +1,94 @@
+1) .gitignore
+
+add o arq .gitignore na pasta do projeto
+	onde será ignorado alguns itens desnecessário para o upload do projeto
+
+2) git init
+
+para habilitar a visualização dos arquivos
+
+3) informando o usuário e e-mail
+
+git config --global user.name "fammacedo0819"
+
+git config --global user.mail "fam_macedo@hotmail.com"
+
+4) git add . 
+
+adicionando os arq na área de stage
+
+5) git commit -m "msg"
+
+confirmando a subida dos arquivos
+
+6) git status
+
+identificando o status dos arq
+
+7) git log ou git log --oneline
+
+verificando o arq do log
+
+	8) git clean -df e git checkout -- . 
+ 
+	descarta a alt efetuadas e voltar para o ponto do últ commit  
+
+	9) git reset --soft HEAD~1
+
+	descarta o últ commit efetuado, mas mantendo as informações alt 
+
+	10) git reset --hard HEAD~1
+
+	efetuar o rollback do últ commit efetuado
+
+	11) git checkout <codigo>
+
+	permite visualizar uma versão anterior
+
+	12) para voltar para o último commit
+
+	git checkout <nome do branch>
+
+13) git remote add origin <url do repositorio remoto>
+
+git remote add origin https://github.com/fammacedo0891/<nome do repositorio.git>
+
+Ficar atento para verificar se pede user/pwd, caso contrário será necessário criar no proprio site
+
+associar um repositorio local ao remoto
+
+14) git remote set-url origin <url do repositorio remoto>
+
+git remote set-url origin https://github.com/fammacedo0891/<nome do repositorio.git>
+
+associa um repositorio local a um remoto mantendo o mesmo apelido  
+
+15) git push -u origin master
+
+subindo as alterações para o github remoto na primeira vez
+
+16) git push 
+
+subindo as alterações para o github remoto nas segunda vez em diante
+
+17) git clone <url do repositorio remoto>
+
+como clonar o repositório remoto para local
+
+abra o bash na pasta que deseja clonar o arq
+
+execute o comando
+
+na pasta do github tem o endereço do projeto, mas segue um padrão https://github.com/fammacedo0891/<nome do repositorio.git>
+
+o download do projeto não traz o histórico de commit
+
+18) git pull origin master
+
+faz o upload das atualizações dos projeto para o seu projeto
+
+esteja na pasta do projeto desejado
+
+
+
+
